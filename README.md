@@ -58,6 +58,12 @@ Images are sourced from:
 
 ⚠️ Dataset is under construction and may be refined with additional metadata (age, emotion, face angles) in future versions.
 
+#### **Data Collection**
+
+**Image Scraper**
+
+You can use the provided face_scraper.py script to automatically download images of male faces from three East Asian nationalities: Chinese, Japanese, and Korean. The scraper pulls images using SerpAPI and saves them into the data/raw_images/ folder.
+
 ### **Preproccesiong**:
 
 Each image has been:
